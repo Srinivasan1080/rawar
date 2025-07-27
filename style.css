@@ -1,0 +1,36 @@
+body {
+  font-family: Arial, sans-serif;
+  max-width: 600px;
+  margin: auto;
+  padding: 20px;
+  background: #f8f9fa;
+}
+h1, h2 {
+  color: #2e7d32;
+}
+#products {
+  margin-bottom: 20px;
+}
+.product {
+  padding: 10px;
+  border: 1px solid #ddd;
+  margin-bottom: 5px;
+  background: #fff;
+}
+form {
+  margin-bottom: 20px;
+}
+input, select, button {
+  margin: 5px 0;
+  padding: 5px;
+}
+ul {
+  list-style: none;
+  padding: 0;
+}
+li {
+  background: #e8f5e9;
+  margin-bottom: 5px;
+  padding: 8px;
+  border-radius: 4px;
+}

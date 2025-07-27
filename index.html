@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Street Food Supply Platform</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <h1>Street Food Raw Material Sourcing</h1>
+  <div id="products"></div>
+  <h2>Place Order</h2>
+  <form id="orderForm">
+    <input type="text" id="vendorName" placeholder="Your Name" required>
+    <input type="number" id="quantity" placeholder="Quantity" min="1" required>
+    <select id="productSelect"></select>
+    <button type="submit">Order</button>
+  </form>
+  <h2>Your Orders</h2>
+  <ul id="orders"></ul>
+  <script src="app.js"></script>
+</body>
+</html>
